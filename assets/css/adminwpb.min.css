@@ -282,7 +282,7 @@ a {
 }
 
 a:hover {
-  color: #009177 !important;
+  color: #009177;
 }
 /* a:hover {
   color: #0a58ca;
@@ -15081,7 +15081,7 @@ body:not(.layout-fixed) .main-sidebar .sidebar {
 }
 
 .brand-link:hover {
-  color: #fff;
+  color: #141a19 !important;
   text-decoration: none;
 }
 
@@ -15441,7 +15441,10 @@ body:not(.layout-fixed) .main-sidebar .sidebar {
 
 [class*="sidebar-light-"] .nav-sidebar > .nav-item.menu-open > .nav-link,
 [class*="sidebar-light-"] .nav-sidebar > .nav-item:hover > .nav-link {
-  background-color: rgba(0, 0, 0, 0.1);
+  /* background-color: rgba(0, 0, 0, 0.1); */
+  /* background-color: #15584C; */
+  /* color: #fff3cd; */
+  background-color: rgba(21, 88, 76, 0.2);
   color: #212529;
 }
 
@@ -17019,7 +17022,7 @@ body:not(.layout-fixed) .main-sidebar .sidebar {
 
 .dark-mode .sidebar-dark-primary .nav-sidebar > .nav-item > .nav-link.active,
 .dark-mode .sidebar-light-primary .nav-sidebar > .nav-item > .nav-link.active {
-  background-color: #3f6791;
+  background-color: #009177;
   color: #fff;
 }
 

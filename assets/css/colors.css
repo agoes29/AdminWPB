@@ -1,0 +1,29 @@
+.dark-mode {
+  background-color: #0a0c0d !important;
+  color: #fff;
+}
+.dark-mode .content-wrapper {
+  background-color: #0a0c0d !important;
+  color: #fff;
+}
+
+
+.bg-pastel-green {
+  background-color: #009177;
+}
+.bg-pastel-red {
+  background-color: #86001C;
+}
+.bg-pastel-yellow {
+  background-color: #9E9800;
+}
+.bg-pastel-blue {
+  background-color: #008096;
+}
+
+.bg-pastel-green, .bg-pastel-green > a,
+.bg-pastel-red, .bg-pastel-red > a,
+.bg-pastel-yellow, .bg-pastel-yellow > a,
+.bg-pastel-blue, .bg-pastel-blue > a {
+  color: #fff !important;
+}
