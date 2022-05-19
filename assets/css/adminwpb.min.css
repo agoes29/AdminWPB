@@ -2598,7 +2598,7 @@ textarea.form-control-lg {
   -moz-appearance: none;
   appearance: none;
   -webkit-print-color-adjust: exact;
-  color-adjust: exact;
+  print-color-adjust: exact;
 }
 
 .form-check-input[type="checkbox"] {
@@ -11293,6 +11293,16 @@ a.badge-dark:focus {
   .text-xl-center {
     text-align: center !important;
   }
+}
+
+.float-left {
+  float: left !important
+}
+.float-right {
+  float: right !important
+}
+.float-none {
+  float: none !important
 }
 
 @media (min-width: 1400px) {
