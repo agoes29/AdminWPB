@@ -4551,7 +4551,9 @@ fieldset:disabled .btn {
 }
 
 .navbar {
-  position: relative;
+  width: -webkit-fill-available;
+  width: -moz-available;
+  position: fixed;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -14053,7 +14055,7 @@ body:not(.layout-fixed) .main-sidebar .sidebar {
 }
 
 .content-header {
-  padding: 15px 0.5rem;
+  padding: 75px 15px 0.5rem;
 }
 
 .text-sm .content-header {
